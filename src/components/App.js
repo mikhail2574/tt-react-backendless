@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import "../App.css";
 import React, { Suspense } from "react";
 import NotFoundPage from "../tabs/notFoundPage";
@@ -10,19 +10,6 @@ function App() {
     <Routes>
       {tabs.map((tab) => {
         const TabComponent = React.lazy(() => import(`../${tab.path}`));
-        if (tab.order === 0) {
-          return (
-            <Route
-              key={tab.id}
-              path="/"
-              element={
-                <Suspense fallback={<div>Loading...</div>}>
-                  <TabComponent />
-                </Suspense>
-              }
-            />
-          );
-        }
         return (
           <Route
             key={tab.id}
@@ -35,6 +22,7 @@ function App() {
           />
         );
       })}
+      <Route path="/" element={<Navigate to={`/${tabs[0].id}`} />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

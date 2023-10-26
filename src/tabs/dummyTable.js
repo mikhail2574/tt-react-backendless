@@ -17,7 +17,7 @@ const DummyTable = () => {
         </thead>
         <tbody>
           {tabs.map((tab) => (
-            <tr className="hover:bg-indigo-100">
+            <tr className="hover:bg-indigo-100" key={tab.id}>
               <td className="border-2 border-solid border-slate-400">
                 {tab.order}
               </td>
