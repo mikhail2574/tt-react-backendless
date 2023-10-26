@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/tt-react-backendless/static/css/main.32173292.css",
-    "main.js": "/tt-react-backendless/static/js/main.7095da2c.js",
+    "main.js": "/tt-react-backendless/static/js/main.5d80445e.js",
     "static/js/449.2f325441.chunk.js": "/tt-react-backendless/static/js/449.2f325441.chunk.js",
     "static/js/511.97bced57.chunk.js": "/tt-react-backendless/static/js/511.97bced57.chunk.js",
     "static/js/888.50bd6ce6.chunk.js": "/tt-react-backendless/static/js/888.50bd6ce6.chunk.js",
     "static/js/273.45730060.chunk.js": "/tt-react-backendless/static/js/273.45730060.chunk.js",
-    "static/js/432.655a4802.chunk.js": "/tt-react-backendless/static/js/432.655a4802.chunk.js",
+    "static/js/432.09a9e6a5.chunk.js": "/tt-react-backendless/static/js/432.09a9e6a5.chunk.js",
     "static/js/787.d17f7295.chunk.js": "/tt-react-backendless/static/js/787.d17f7295.chunk.js",
     "static/js/185.aab5203b.chunk.js": "/tt-react-backendless/static/js/185.aab5203b.chunk.js",
     "static/js/930.1196eeef.chunk.js": "/tt-react-backendless/static/js/930.1196eeef.chunk.js",
@@ -15,11 +15,11 @@
     "static/media/index.cjs": "/tt-react-backendless/static/media/index.87283f34b94ab8669cb4.cjs",
     "index.html": "/tt-react-backendless/index.html",
     "main.32173292.css.map": "/tt-react-backendless/static/css/main.32173292.css.map",
-    "main.7095da2c.js.map": "/tt-react-backendless/static/js/main.7095da2c.js.map",
+    "main.5d80445e.js.map": "/tt-react-backendless/static/js/main.5d80445e.js.map",
     "449.2f325441.chunk.js.map": "/tt-react-backendless/static/js/449.2f325441.chunk.js.map",
     "888.50bd6ce6.chunk.js.map": "/tt-react-backendless/static/js/888.50bd6ce6.chunk.js.map",
     "273.45730060.chunk.js.map": "/tt-react-backendless/static/js/273.45730060.chunk.js.map",
-    "432.655a4802.chunk.js.map": "/tt-react-backendless/static/js/432.655a4802.chunk.js.map",
+    "432.09a9e6a5.chunk.js.map": "/tt-react-backendless/static/js/432.09a9e6a5.chunk.js.map",
     "787.d17f7295.chunk.js.map": "/tt-react-backendless/static/js/787.d17f7295.chunk.js.map",
     "185.aab5203b.chunk.js.map": "/tt-react-backendless/static/js/185.aab5203b.chunk.js.map",
     "930.1196eeef.chunk.js.map": "/tt-react-backendless/static/js/930.1196eeef.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.32173292.css",
-    "static/js/main.7095da2c.js"
+    "static/js/main.5d80445e.js"
   ]
 }
